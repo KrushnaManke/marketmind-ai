@@ -2,7 +2,7 @@
 
 **Customer churn prediction, revenue forecasting and business analytics: an end-to-end data science project.**
 
-> **Explore the project:** [Project site](https://krushnamanke.github.io/marketmind-ai/) · [Deploy your Streamlit dashboard](https://share.streamlit.io/deploy?repository=KrushnaManke%2Fmarketmind-ai&branch=main&mainModule=app%2FHome.py) · [View the source](https://github.com/KrushnaManke/marketmind-ai)
+> **Explore the project:** [Project site](https://krushnamanke.github.io/marketmind-ai/) · [Open the live Streamlit dashboard](https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast) · [View the source](https://github.com/KrushnaManke/marketmind-ai)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Interactive-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -184,7 +184,15 @@ The app only *reads* precomputed files from `data/processed/`, so it starts inst
 3. Keep the library versions in `requirements.txt` close to the ones you trained with. Pickled models are version-sensitive; if loading fails
    the scoring forms show a message and the rest of the app still works.
 
-The public GitHub Pages site at [krushnamanke.github.io/marketmind-ai](https://krushnamanke.github.io/marketmind-ai/) is the project overview and deploy guide; GitHub Pages cannot run Python. The interactive dashboard is your Streamlit app, deployed separately from this repository. The deploy button opens Streamlit Community Cloud; sign in and complete its setup to receive your app's live URL. No Streamlit-hosted app URL is claimed until that setup is complete.
+The public GitHub Pages site at [krushnamanke.github.io/marketmind-ai](https://krushnamanke.github.io/marketmind-ai/) is the project overview; GitHub Pages cannot run Python. The interactive Streamlit dashboard is live at [krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app](https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast).
+
+---
+
+## Future goals
+
+1. **Measure incremental retention:** add randomized campaign holdouts and uplift modelling to distinguish customers who can be persuaded from those merely predicted to churn.
+2. **Use fresh, authorized customer data:** add guided data ingestion and validation, with drift monitoring and a clear recalibration workflow.
+3. **Strengthen forecast monitoring:** expand rolling backtests and track forecast error over time, with alerts when observed revenue falls outside expected ranges.
 
 ---
 

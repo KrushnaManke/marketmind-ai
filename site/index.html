@@ -161,13 +161,13 @@
         <h1>Find the signal.<br><em>Make it matter.</em></h1>
         <p class="lede">An explainable analytics lab for customer churn, retention economics, customer value, and revenue forecasts. Turn model outputs into decisions you can inspect—not just scores you have to trust.</p>
         <div class="actions">
-          <a class="button primary" href="https://share.streamlit.io/deploy?repository=KrushnaManke/marketmind-ai&amp;branch=main&amp;mainModule=app/Home.py" target="_blank" rel="noopener noreferrer">Deploy my Streamlit dashboard <span aria-hidden="true">↗</span></a>
+          <a class="button primary" href="https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast" target="_blank" rel="noopener noreferrer">Open my live Streamlit dashboard <span aria-hidden="true">↗</span></a>
           <a class="button" href="https://github.com/KrushnaManke/marketmind-ai" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.12.08 1.71 1.14 1.71 1.14 1 .1.75 2.05 3.73 1.42.1-.73.39-1.22.7-1.5-2.47-.28-5.06-1.24-5.06-5.5 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.1-2.96 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.6 1.54.22 2.68.1 2.96.72.78 1.15 1.78 1.15 3 0 4.27-2.59 5.22-5.07 5.5.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
             View the project
           </a>
         </div>
-        <p class="fine">Your source app is <code>app/Home.py</code> · seven Streamlit pages · use the deploy button to publish your dashboard</p>
+        <p class="fine">Live Streamlit app · seven pages · source code and reproducible analysis on GitHub</p>
       </div>
       <div class="visual">
         <div class="visual-top"><span>Model quality · held-out evaluation</span><span class="live-label"><span class="dot"></span> Explainable by design</span></div>
@@ -223,7 +223,7 @@
           <article class="card"><div class="card-body"><span class="label">06 · Listen</span><h3>Review Sentiment</h3><p>Inspect sentiment model quality and influential terms, browse scored demo reviews, and try the live text-scoring form.</p></div></article>
           <article class="card"><div class="card-body"><span class="label">07 · Investigate</span><h3>SQL Insights</h3><p>Browse named SQL analyses for churn, revenue, repeat purchases, and cohorts; explore results with a read-only query interface.</p></div></article>
         </div>
-        <p class="fine">To open your own hosted app, deploy this repository to Streamlit Community Cloud from the button below. GitHub Pages serves this project overview; it does not run Python.</p>
+        <p class="fine"><a href="https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast" target="_blank" rel="noopener noreferrer">Open the live Streamlit dashboard →</a> GitHub Pages hosts this project overview; the interactive Python app runs on Streamlit.</p>
       </div>
     </section>
 
@@ -283,9 +283,24 @@
         </div>
         <div style="margin-top:27px">
           <div class="final-cta">
-            <div><h2>Open your Streamlit app.</h2><p>Connect this repository to Streamlit Community Cloud and deploy <code>app/Home.py</code>.</p></div>
-            <a class="button primary" href="https://share.streamlit.io/deploy?repository=KrushnaManke/marketmind-ai&amp;branch=main&amp;mainModule=app/Home.py" target="_blank" rel="noopener noreferrer">Deploy my dashboard <span aria-hidden="true">↗</span></a>
+            <div><h2>Explore the live dashboard.</h2><p>Open the deployed Streamlit app and explore its seven interactive analysis pages.</p></div>
+            <a class="button primary" href="https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast" target="_blank" rel="noopener noreferrer">Open my dashboard <span aria-hidden="true">↗</span></a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="future-goals">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">What’s next</div>
+          <h2>Three goals for the next iteration.</h2>
+          <p>A practical roadmap to make the analysis more decision-ready, adaptive, and reliable on real business data.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><h3>Measure incremental retention</h3><p>Add a randomized holdout and uplift modelling so campaign recommendations focus on customers whose outcomes can actually be changed by an offer.</p></article>
+          <article class="step"><h3>Support fresh, authorized data</h3><p>Build a guided data-import and validation flow, then track drift and recalibration when customer behavior changes.</p></article>
+          <article class="step"><h3>Improve forecast monitoring</h3><p>Extend rolling backtests, compare forecast errors over time, and surface alerts when actual revenue moves outside expected ranges.</p></article>
         </div>
       </div>
     </section>
