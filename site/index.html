@@ -147,6 +147,7 @@
     </a>
     <nav class="navlinks" aria-label="Main navigation">
       <a href="#explore">Explore</a>
+      <a href="#dashboard">Dashboard</a>
       <a href="#calculator">Calculator</a>
       <a href="#how">How it works</a>
       <a class="github" href="https://github.com/KrushnaManke/marketmind-ai" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
@@ -160,13 +161,13 @@
         <h1>Find the signal.<br><em>Make it matter.</em></h1>
         <p class="lede">An explainable analytics lab for customer churn, retention economics, customer value, and revenue forecasts. Turn model outputs into decisions you can inspect—not just scores you have to trust.</p>
         <div class="actions">
-          <a class="button primary" href="#explore">Explore the analysis <span aria-hidden="true">↓</span></a>
+          <a class="button primary" href="https://share.streamlit.io/deploy?repository=KrushnaManke/marketmind-ai&amp;branch=main&amp;mainModule=app/Home.py" target="_blank" rel="noopener noreferrer">Deploy my Streamlit dashboard <span aria-hidden="true">↗</span></a>
           <a class="button" href="https://github.com/KrushnaManke/marketmind-ai" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.12.08 1.71 1.14 1.71 1.14 1 .1.75 2.05 3.73 1.42.1-.73.39-1.22.7-1.5-2.47-.28-5.06-1.24-5.06-5.5 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.1-2.96 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.6 1.54.22 2.68.1 2.96.72.78 1.15 1.78 1.15 3 0 4.27-2.59 5.22-5.07 5.5.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
             View the project
           </a>
         </div>
-        <p class="fine">Seven Streamlit pages · calibrated churn scores · transparent assumptions · interactive demo</p>
+        <p class="fine">Your source app is <code>app/Home.py</code> · seven Streamlit pages · use the deploy button to publish your dashboard</p>
       </div>
       <div class="visual">
         <div class="visual-top"><span>Model quality · held-out evaluation</span><span class="live-label"><span class="dot"></span> Explainable by design</span></div>
@@ -203,6 +204,26 @@
             <div class="card-body"><span class="label">03 · Anticipate</span><h3>Plan with a range, not a promise</h3><p>Compare a 30-day forecast with rolling backtests and an empirical uncertainty interval.</p></div>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="dashboard">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">Your Streamlit dashboard</div>
+          <h2>Seven focused views, one reproducible project.</h2>
+          <p>The Python app in this repository is the interactive product. Each page is backed by saved analysis outputs, so visitors can explore the demo without running the training pipeline on every page load.</p>
+        </div>
+        <div class="grid">
+          <article class="card"><div class="card-body"><span class="label">01 · Overview</span><h3>Executive Overview</h3><p>Compare active-customer churn, annualized revenue exposure, campaign economics, retail segments, and the next-30-day forecast in one view.</p></div></article>
+          <article class="card"><div class="card-body"><span class="label">02 · Prioritize</span><h3>Churn Risk</h3><p>Filter and rank customers by calibrated churn probability, inspect the strongest available reasons, export a review list, or score a hypothetical customer.</p></div></article>
+          <article class="card"><div class="card-body"><span class="label">03 · Explain</span><h3>Why They Leave</h3><p>Compare global model drivers with permutation importance, contract and tenure patterns, review themes, and practical retention questions.</p></div></article>
+          <article class="card"><div class="card-body"><span class="label">04 · Grow</span><h3>Segments &amp; Lifetime Value</h3><p>Explore RFM profiles, K-Means and DBSCAN diagnostics, retail cohorts, segment-level customer value, and representative customers.</p></div></article>
+          <article class="card"><div class="card-body"><span class="label">05 · Forecast</span><h3>Revenue Forecast</h3><p>Review daily revenue history, rolling-origin backtests, model comparisons, and a 30-day forecast with an empirical uncertainty band.</p></div></article>
+          <article class="card"><div class="card-body"><span class="label">06 · Listen</span><h3>Review Sentiment</h3><p>Inspect sentiment model quality and influential terms, browse scored demo reviews, and try the live text-scoring form.</p></div></article>
+          <article class="card"><div class="card-body"><span class="label">07 · Investigate</span><h3>SQL Insights</h3><p>Browse named SQL analyses for churn, revenue, repeat purchases, and cohorts; explore results with a read-only query interface.</p></div></article>
+        </div>
+        <p class="fine">To open your own hosted app, deploy this repository to Streamlit Community Cloud from the button below. GitHub Pages serves this project overview; it does not run Python.</p>
       </div>
     </section>
 
@@ -262,8 +283,8 @@
         </div>
         <div style="margin-top:27px">
           <div class="final-cta">
-            <div><h2>Curious? Run the model.</h2><p>Open the repo for installation, data source, reproducibility, and deployment instructions.</p></div>
-            <a class="button primary" href="https://github.com/KrushnaManke/marketmind-ai" target="_blank" rel="noopener noreferrer">Get started on GitHub <span aria-hidden="true">↗</span></a>
+            <div><h2>Open your Streamlit app.</h2><p>Connect this repository to Streamlit Community Cloud and deploy <code>app/Home.py</code>.</p></div>
+            <a class="button primary" href="https://share.streamlit.io/deploy?repository=KrushnaManke/marketmind-ai&amp;branch=main&amp;mainModule=app/Home.py" target="_blank" rel="noopener noreferrer">Deploy my dashboard <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </div>

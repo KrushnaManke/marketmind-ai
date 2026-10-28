@@ -2,7 +2,7 @@
 
 **Customer churn prediction, revenue forecasting and business analytics: an end-to-end data science project.**
 
-> **Explore the project:** [Open the interactive showcase](https://krushnamanke.github.io/marketmind-ai/) · [View the source](https://github.com/KrushnaManke/marketmind-ai) · [Run the Streamlit dashboard](#quick-start)
+> **Explore the project:** [Project site](https://krushnamanke.github.io/marketmind-ai/) · [Deploy your Streamlit dashboard](https://share.streamlit.io/deploy?repository=KrushnaManke%2Fmarketmind-ai&branch=main&mainModule=app%2FHome.py) · [View the source](https://github.com/KrushnaManke/marketmind-ai)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Interactive-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -180,11 +180,11 @@ The app only *reads* precomputed files from `data/processed/`, so it starts inst
 
 ### Deploy the dashboard: Streamlit Community Cloud
 1. Run the pipeline locally; commit `data/processed/`, `models/`, `reports/` (not `data/raw/`, not `marketmind.db`).
-2. Push to GitHub, create an app at share.streamlit.io, main file `app/Home.py`. It installs `requirements.txt` (lean runtime).
+2. Push to GitHub and [deploy this repository to Streamlit Community Cloud](https://share.streamlit.io/deploy?repository=KrushnaManke%2Fmarketmind-ai&branch=main&mainModule=app%2FHome.py). Sign in with your GitHub account and confirm `app/Home.py` as the main file. Streamlit installs `requirements.txt` (lean runtime).
 3. Keep the library versions in `requirements.txt` close to the ones you trained with. Pickled models are version-sensitive; if loading fails
    the scoring forms show a message and the rest of the app still works.
 
-The GitHub Pages site deploys automatically from `site/` when changes are pushed to `main`. Pages hosts the interactive showcase; it cannot run the Python/Streamlit dashboard. To publish the full dashboard, connect this repository in Streamlit Community Cloud and set the main file to `app/Home.py`.
+The public GitHub Pages site at [krushnamanke.github.io/marketmind-ai](https://krushnamanke.github.io/marketmind-ai/) is the project overview and deploy guide; GitHub Pages cannot run Python. The interactive dashboard is your Streamlit app, deployed separately from this repository. The deploy button opens Streamlit Community Cloud; sign in and complete its setup to receive your app's live URL. No Streamlit-hosted app URL is claimed until that setup is complete.
 
 ---
 
