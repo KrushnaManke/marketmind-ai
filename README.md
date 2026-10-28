@@ -35,6 +35,7 @@ It also includes customer segmentation (RFM, K-Means, DBSCAN), customer lifetime
 
 ## Skills demonstrated
 
+* **Programming languages:** Python for the data pipeline and Streamlit app; SQL for analytical queries; HTML, CSS and JavaScript for the project site and interactive calculator.
 * **Data engineering:** Python, Pandas, NumPy, data cleaning, feature engineering, validation, CSV/Excel inputs, SQLite and analytical SQL.
 * **Machine learning:** scikit-learn pipelines, logistic regression, random forests, gradient boosting/XGBoost, cross-validation, probability calibration, class-imbalance metrics and model comparison. SHAP is optional; logistic-contribution explanations provide a fallback.
 * **Customer analytics:** churn prediction, RFM segmentation, K-Means, DBSCAN, customer lifetime value, cohort analysis, revenue-at-risk estimation and expected-profit retention targeting.
