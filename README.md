@@ -2,12 +2,12 @@
 
 **Customer churn prediction, revenue forecasting and business analytics: an end-to-end data science project.**
 
-> **Explore the project:** [Project site](https://krushnamanke.github.io/marketmind-ai/) · [Open the live Streamlit dashboard](https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast) · [View the source](https://github.com/KrushnaManke/marketmind-ai)
+> **Open the live app:** [MarketMind AI on Streamlit](https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast) · [View the source](https://github.com/KrushnaManke/marketmind-ai)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Interactive-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-![MarketMind churn analysis preview](site/assets/churn-roc-pr.png)
+![MarketMind churn analysis preview](reports/figures/churn_roc_pr.png)
 
 **A decision-support lab, not a black box.** Explore churn risk, explain model drivers, test a retention rule, compare customer segments, and inspect a 30-day forecast. The showcase includes an interactive retention-value calculator; the full dashboard has seven navigable pages.
 
@@ -35,12 +35,12 @@ It also includes customer segmentation (RFM, K-Means, DBSCAN), customer lifetime
 
 ## Skills demonstrated
 
-* **Programming languages:** Python for the data pipeline and Streamlit app; SQL for analytical queries; HTML, CSS and JavaScript for the project site and interactive calculator.
+* **Programming languages:** Python for the data pipeline and Streamlit app; SQL for analytical queries.
 * **Data engineering:** Python, Pandas, NumPy, data cleaning, feature engineering, validation, CSV/Excel inputs, SQLite and analytical SQL.
 * **Machine learning:** scikit-learn pipelines, logistic regression, random forests, gradient boosting/XGBoost, cross-validation, probability calibration, class-imbalance metrics and model comparison. SHAP is optional; logistic-contribution explanations provide a fallback.
 * **Customer analytics:** churn prediction, RFM segmentation, K-Means, DBSCAN, customer lifetime value, cohort analysis, revenue-at-risk estimation and expected-profit retention targeting.
 * **Forecasting and NLP:** rolling-origin time-series backtests, empirical forecast intervals, TF-IDF sentiment classification and review-theme analysis. Transformer sentiment is an optional extension.
-* **Visualization and product delivery:** Streamlit, Plotly, interactive analytics, decision-support storytelling, Git/GitHub, automated GitHub Pages deployment, testing and technical documentation.
+* **Visualization and product delivery:** Streamlit, Plotly, interactive analytics, decision-support storytelling, Git/GitHub, Streamlit Community Cloud, testing and technical documentation.
 
 > **Demo data notice.** The Telco churn rows and review texts are synthetic stand-ins with the expected schemas. The
 > retail analysis uses the public UCI Online Retail dataset. The dashboard identifies source types and shows a warning
@@ -106,7 +106,6 @@ marketmind-ai/
 ├── models/                    # churn_model.joblib, sentiment_tfidf_lr.joblib
 ├── tests/                     # test_project.py, smoke_app.py
 ├── reports/figures/            # regenerated model and forecast visuals
-└── site/                       # GitHub Pages interactive project showcase
 ```
 
 ---
@@ -193,7 +192,7 @@ The app only *reads* precomputed files from `data/processed/`, so it starts inst
 3. Keep the library versions in `requirements.txt` close to the ones you trained with. Pickled models are version-sensitive; if loading fails
    the scoring forms show a message and the rest of the app still works.
 
-The public GitHub Pages site at [krushnamanke.github.io/marketmind-ai](https://krushnamanke.github.io/marketmind-ai/) is the project overview; GitHub Pages cannot run Python. The interactive Streamlit dashboard is live at [krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app](https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast).
+The interactive Streamlit dashboard is live at [krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app](https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast).
 
 ---
 
