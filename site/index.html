@@ -78,6 +78,8 @@
     .card h3 { margin:0 0 7px; font-size:1.02rem; letter-spacing:-.02em; }
     .card p { margin:0; color:var(--muted); font-size:.86rem; }
     .label { display:inline-block; margin-bottom:10px; color:var(--blue); font-size:.66rem; font-weight:750; letter-spacing:.11em; text-transform:uppercase; }
+    .skill-tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+    .skill-tag { display:inline-flex; padding:5px 9px; border:1px solid var(--line); border-radius:999px; background:rgba(255,255,255,.035); color:#d5e0e6; font-size:.73rem; line-height:1.35; }
     .calculator { display:grid; grid-template-columns:1fr .83fr; gap:17px; align-items:stretch; }
     .calc-inputs,.calc-result { padding:24px; border:1px solid var(--line); border-radius:14px; background:var(--panel); }
     .calc-inputs h3,.calc-result h3 { margin:0 0 17px; font-size:1rem; }
@@ -148,6 +150,7 @@
     <nav class="navlinks" aria-label="Main navigation">
       <a href="#explore">Explore</a>
       <a href="#dashboard">Dashboard</a>
+      <a href="#skills">Skills</a>
       <a href="#calculator">Calculator</a>
       <a href="#how">How it works</a>
       <a class="github" href="https://github.com/KrushnaManke/marketmind-ai" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
@@ -224,6 +227,25 @@
           <article class="card"><div class="card-body"><span class="label">07 · Investigate</span><h3>SQL Insights</h3><p>Browse named SQL analyses for churn, revenue, repeat purchases, and cohorts; explore results with a read-only query interface.</p></div></article>
         </div>
         <p class="fine"><a href="https://krushnamanke-marketmind-ai-apphome-inr97p.streamlit.app/Forecast" target="_blank" rel="noopener noreferrer">Open the live Streamlit dashboard →</a> GitHub Pages hosts this project overview; the interactive Python app runs on Streamlit.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">Skills in practice</div>
+          <h2>More than model training.</h2>
+          <p>This project brings data preparation, predictive modelling, customer analytics, product thinking, and deployment together in one reproducible workflow.</p>
+        </div>
+        <div class="grid">
+          <article class="card"><div class="card-body"><span class="label">Data &amp; engineering</span><h3>Build reliable analysis inputs</h3><p>Prepare, validate, and transform customer and transaction data for repeatable analysis.</p><div class="skill-tags"><span class="skill-tag">Python</span><span class="skill-tag">Pandas</span><span class="skill-tag">NumPy</span><span class="skill-tag">SQL</span><span class="skill-tag">SQLite</span><span class="skill-tag">Feature engineering</span><span class="skill-tag">Data validation</span></div></div></article>
+          <article class="card"><div class="card-body"><span class="label">Machine learning</span><h3>Model, evaluate, explain</h3><p>Compare models with leakage-aware validation, calibrated probabilities, appropriate metrics, and inspectable explanations.</p><div class="skill-tags"><span class="skill-tag">scikit-learn</span><span class="skill-tag">XGBoost</span><span class="skill-tag">Classification</span><span class="skill-tag">Probability calibration</span><span class="skill-tag">Cross-validation</span><span class="skill-tag">SHAP (optional)</span><span class="skill-tag">Model evaluation</span></div></div></article>
+          <article class="card"><div class="card-body"><span class="label">Customer &amp; business analytics</span><h3>Turn predictions into decisions</h3><p>Connect customer risk and value estimates to segmentation, retention economics, and measurable business questions.</p><div class="skill-tags"><span class="skill-tag">Churn analysis</span><span class="skill-tag">RFM segmentation</span><span class="skill-tag">K-Means</span><span class="skill-tag">DBSCAN</span><span class="skill-tag">Customer lifetime value</span><span class="skill-tag">Profit-based targeting</span><span class="skill-tag">Cohort analysis</span></div></div></article>
+          <article class="card"><div class="card-body"><span class="label">Forecasting &amp; language</span><h3>Find patterns over time and in text</h3><p>Backtest short-horizon revenue forecasts and surface themes from customer review text.</p><div class="skill-tags"><span class="skill-tag">Time-series forecasting</span><span class="skill-tag">Rolling backtests</span><span class="skill-tag">Uncertainty intervals</span><span class="skill-tag">TF-IDF</span><span class="skill-tag">Sentiment analysis</span><span class="skill-tag">NLP</span></div></div></article>
+          <article class="card"><div class="card-body"><span class="label">Visualization &amp; product</span><h3>Make analysis explorable</h3><p>Present results through interactive charts, guided dashboard pages, and a live business-assumption calculator.</p><div class="skill-tags"><span class="skill-tag">Streamlit</span><span class="skill-tag">Plotly</span><span class="skill-tag">Data storytelling</span><span class="skill-tag">Interactive dashboards</span><span class="skill-tag">Decision support</span><span class="skill-tag">Accessible web design</span></div></div></article>
+          <article class="card"><div class="card-body"><span class="label">Delivery &amp; quality</span><h3>Ship a reproducible project</h3><p>Package an application and analysis workflow with tests, documentation, source control, and automated site deployment.</p><div class="skill-tags"><span class="skill-tag">Git &amp; GitHub</span><span class="skill-tag">GitHub Actions</span><span class="skill-tag">GitHub Pages</span><span class="skill-tag">Streamlit Community Cloud</span><span class="skill-tag">Testing</span><span class="skill-tag">Technical documentation</span></div></div></article>
+        </div>
+        <p class="fine">SHAP and XGBoost are used when available in the runtime; the project includes fallback explanations/models where applicable. Transformer-based sentiment is an optional extension, not required to run the dashboard.</p>
       </div>
     </section>
 

@@ -33,6 +33,14 @@ One executive dashboard answers four questions:
 
 It also includes customer segmentation (RFM, K-Means, DBSCAN), customer lifetime value (Telco hazard model, Retail regression), SQL analysis and review sentiment (TF-IDF + Logistic Regression, optional DistilBERT).
 
+## Skills demonstrated
+
+* **Data engineering:** Python, Pandas, NumPy, data cleaning, feature engineering, validation, CSV/Excel inputs, SQLite and analytical SQL.
+* **Machine learning:** scikit-learn pipelines, logistic regression, random forests, gradient boosting/XGBoost, cross-validation, probability calibration, class-imbalance metrics and model comparison. SHAP is optional; logistic-contribution explanations provide a fallback.
+* **Customer analytics:** churn prediction, RFM segmentation, K-Means, DBSCAN, customer lifetime value, cohort analysis, revenue-at-risk estimation and expected-profit retention targeting.
+* **Forecasting and NLP:** rolling-origin time-series backtests, empirical forecast intervals, TF-IDF sentiment classification and review-theme analysis. Transformer sentiment is an optional extension.
+* **Visualization and product delivery:** Streamlit, Plotly, interactive analytics, decision-support storytelling, Git/GitHub, automated GitHub Pages deployment, testing and technical documentation.
+
 > **Demo data notice.** The Telco churn rows and review texts are synthetic stand-ins with the expected schemas. The
 > retail analysis uses the public UCI Online Retail dataset. The dashboard identifies source types and shows a warning
 > whenever synthetic data is in use. Add compatible inputs to `data/raw/` (see below) and rerun the pipeline to update it.
