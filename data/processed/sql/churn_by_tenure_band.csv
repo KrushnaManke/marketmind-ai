@@ -1,0 +1,5 @@
+tenure_band,customers,churn_pct
+1) 0-12 months,1842,49.1
+2) 13-24 months,1358,37.5
+3) 25-48 months,2019,17.2
+4) 49+ months,1824,5.5

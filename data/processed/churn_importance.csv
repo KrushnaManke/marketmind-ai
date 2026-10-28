@@ -1,0 +1,56 @@
+encoded_feature,importance,base_feature,direction_when_present_or_high,method
+tenure,0.8520262206486492,tenure,lowers risk,logistic_contributions
+Contract=Month-to-month,0.6887573577722239,Contract,raises risk,logistic_contributions
+MonthlyCharges,0.6597938459794406,MonthlyCharges,raises risk,logistic_contributions
+Contract=Two year,0.3032559545542797,Contract,lowers risk,logistic_contributions
+num_addons,0.2625535612950404,num_addons,lowers risk,logistic_contributions
+avg_charge_per_month,0.1872306415807537,avg_charge_per_month,lowers risk,logistic_contributions
+TechSupport=No,0.17975926975677747,TechSupport,raises risk,logistic_contributions
+TotalCharges,0.13258267549148048,TotalCharges,raises risk,logistic_contributions
+PaymentMethod=Electronic check,0.11963450732004546,PaymentMethod,raises risk,logistic_contributions
+OnlineSecurity=No,0.11064630169981164,OnlineSecurity,raises risk,logistic_contributions
+SeniorCitizen,0.1043317572752459,SeniorCitizen,raises risk,logistic_contributions
+TechSupport=Yes,0.09611991097087196,TechSupport,lowers risk,logistic_contributions
+InternetService=DSL,0.09535011964345816,InternetService,lowers risk,logistic_contributions
+has_protection=No,0.09163312363836407,has_protection,lowers risk,logistic_contributions
+PaperlessBilling=No,0.0891203845480648,PaperlessBilling,lowers risk,logistic_contributions
+InternetService=Fiber optic,0.0863891886468139,InternetService,raises risk,logistic_contributions
+is_autopay=Yes,0.08520257483778136,is_autopay,lowers risk,logistic_contributions
+StreamingTV=No,0.07933018521955457,StreamingTV,lowers risk,logistic_contributions
+PhoneService=Yes,0.07883209884577515,PhoneService,lowers risk,logistic_contributions
+PaymentMethod=Mailed check,0.0744263046476749,PaymentMethod,lowers risk,logistic_contributions
+tenure_group=0-12,0.0705547136736992,tenure_group,lowers risk,logistic_contributions
+OnlineSecurity=Yes,0.06619903674255466,OnlineSecurity,lowers risk,logistic_contributions
+gender=Female,0.053407015605414464,gender,lowers risk,logistic_contributions
+Partner=No,0.049347258988758955,Partner,lowers risk,logistic_contributions
+Dependents=No,0.0492010603329167,Dependents,lowers risk,logistic_contributions
+tenure_group=49+,0.04845074316739154,tenure_group,raises risk,logistic_contributions
+OnlineBackup=No,0.040499595855563446,OnlineBackup,lowers risk,logistic_contributions
+DeviceProtection=No,0.03863389697069328,DeviceProtection,lowers risk,logistic_contributions
+StreamingMovies=No,0.03575172319073725,StreamingMovies,lowers risk,logistic_contributions
+Partner=Yes,0.03331451811249522,Partner,lowers risk,logistic_contributions
+PaperlessBilling=Yes,0.03072198355180901,PaperlessBilling,raises risk,logistic_contributions
+gender=Male,0.028492459101417594,gender,lowers risk,logistic_contributions
+Dependents=Yes,0.028142350958467722,Dependents,lowers risk,logistic_contributions
+PaymentMethod=Credit card (automatic),0.025062780016120546,PaymentMethod,lowers risk,logistic_contributions
+StreamingTV=Yes,0.022708846653283352,StreamingTV,raises risk,logistic_contributions
+MultipleLines=No,0.022141066152895534,MultipleLines,lowers risk,logistic_contributions
+Contract=One year,0.02114539474074267,Contract,lowers risk,logistic_contributions
+PaymentMethod=Bank transfer (automatic),0.017552756075241756,PaymentMethod,lowers risk,logistic_contributions
+MultipleLines=Yes,0.016948912920905883,MultipleLines,lowers risk,logistic_contributions
+InternetService=No,0.01635805090479449,InternetService,lowers risk,logistic_contributions
+StreamingMovies=No internet service,0.01635805090479449,StreamingMovies,lowers risk,logistic_contributions
+StreamingTV=No internet service,0.01635805090479449,StreamingTV,lowers risk,logistic_contributions
+OnlineSecurity=No internet service,0.01635805090479449,OnlineSecurity,lowers risk,logistic_contributions
+TechSupport=No internet service,0.01635805090479449,TechSupport,lowers risk,logistic_contributions
+OnlineBackup=No internet service,0.01635805090479449,OnlineBackup,lowers risk,logistic_contributions
+DeviceProtection=No internet service,0.01635805090479449,DeviceProtection,lowers risk,logistic_contributions
+is_autopay=No,0.01535816615950544,is_autopay,raises risk,logistic_contributions
+tenure_group=13-24,0.011922614218884759,tenure_group,lowers risk,logistic_contributions
+MultipleLines=No phone service,0.007678314922434183,MultipleLines,lowers risk,logistic_contributions
+PhoneService=No,0.007678314922434183,PhoneService,lowers risk,logistic_contributions
+tenure_group=25-48,0.005644762184448649,tenure_group,lowers risk,logistic_contributions
+has_protection=Yes,0.00483953598074755,has_protection,lowers risk,logistic_contributions
+StreamingMovies=Yes,0.003969621688823746,StreamingMovies,lowers risk,logistic_contributions
+DeviceProtection=Yes,0.0038386857212490905,DeviceProtection,lowers risk,logistic_contributions
+OnlineBackup=Yes,0.002726588084506428,OnlineBackup,lowers risk,logistic_contributions

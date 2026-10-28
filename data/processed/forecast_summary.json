@@ -1,0 +1,23 @@
+{
+  "data_source": "real",
+  "best_model": "seasonal_level",
+  "models_tried": [
+    "seasonal_naive",
+    "seasonal_level",
+    "holt_winters",
+    "sarimax",
+    "prophet"
+  ],
+  "uses_statsmodels": true,
+  "uses_prophet": true,
+  "history_days": 374,
+  "history_start": "2010-12-01",
+  "history_end": "2011-12-09",
+  "partial_last_month_dropped_from_monthly": true,
+  "next_30d_total": 1537440.4489171964,
+  "last_30d_actual_total": 1627610.9499999997,
+  "backtest_wape_best_pct": 30.92658025891602,
+  "backtest_total_error_best_pct": -21.179852652589933,
+  "adf_pvalue": 0.12013157189460222,
+  "caveat": "About one year of history cannot reveal annual seasonality; treat the horizon as short-term."
+}

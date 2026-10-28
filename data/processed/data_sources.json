@@ -1,0 +1,10 @@
+{
+  "telco": "synthetic",
+  "retail": "real",
+  "reviews": "synthetic",
+  "rows": {
+    "telco": 7043,
+    "retail": 541909,
+    "reviews": 6000
+  }
+}

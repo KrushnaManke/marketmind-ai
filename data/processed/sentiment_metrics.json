@@ -1,0 +1,10 @@
+{
+  "data_source": "synthetic",
+  "model": "TF-IDF(1-2gram) + LogisticRegression",
+  "n_train": 4800,
+  "n_test": 1200,
+  "accuracy": 0.8291666666666667,
+  "f1": 0.8455162019593067,
+  "roc_auc": 0.8751607255410041,
+  "positive_share": 0.5456666666666666
+}

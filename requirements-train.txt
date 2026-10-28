@@ -1,0 +1,14 @@
+# Full environment for running the whole pipeline on your machine
+-r requirements.txt
+shap>=0.44            # per-customer + global SHAP explanations (falls back to logistic contributions without it)
+statsmodels>=0.14     # adds Holt-Winters + SARIMAX to the forecast comparison
+prophet>=1.1.5        # adds Prophet to the forecast comparison
+matplotlib>=3.7       # README figures
+openpyxl>=3.1         # read "Online Retail.xlsx"
+pytest>=8.0
+
+# Optional: transformer sentiment (heavy - use Colab / a GPU; never needed by the dashboard)
+# transformers>=4.40
+# torch
+# datasets
+# accelerate

@@ -1,0 +1,25 @@
+{
+  "data_source": "real",
+  "cutoff": "2011-09-10",
+  "window_days": 90,
+  "n_customers": 3368,
+  "metrics": {
+    "naive_run_rate": {
+      "MAE": 667.6277041660818,
+      "RMSE": 3439.931928629008,
+      "top_decile_revenue_capture": 0.5986212794996834
+    },
+    "ridge_log": {
+      "MAE": 724.0405154504556,
+      "RMSE": 4359.664077572156,
+      "top_decile_revenue_capture": 0.6036332090097429
+    },
+    "hist_gb": {
+      "MAE": 703.627354832709,
+      "RMSE": 4508.020823512614,
+      "top_decile_revenue_capture": 0.6077734761044954
+    }
+  },
+  "best_model": "naive_run_rate",
+  "note": "Features use only data up to the cutoff; target is spend in the next window."
+}

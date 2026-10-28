@@ -1,0 +1,10 @@
+# Lean runtime for the Streamlit dashboard (what Streamlit Community Cloud installs).
+# xgboost is needed only if the saved churn model was trained with it (the pickle references it);
+# keep these versions close to the ones you trained with, because joblib pickles are version-sensitive.
+streamlit>=1.35
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+scikit-learn>=1.3
+joblib>=1.3
+xgboost>=2.0

@@ -1,0 +1,44 @@
+{
+  "data_source": "synthetic",
+  "best_model": "logistic_regression",
+  "uses_xgboost": false,
+  "explanation_method": "logistic_contributions",
+  "models": [
+    {
+      "model": "logistic_regression",
+      "cv_pr_auc": 0.6373879380965546,
+      "roc_auc": 0.8371313672922253,
+      "pr_auc": 0.6206071260572192,
+      "precision@0.5": 0.5097402597402597,
+      "recall@0.5": 0.8418230563002681,
+      "brier_uncalibrated": 0.17346705341761282
+    },
+    {
+      "model": "random_forest",
+      "cv_pr_auc": 0.6215809753360022,
+      "roc_auc": 0.8270337553179378,
+      "pr_auc": 0.6129254536960254,
+      "precision@0.5": 0.5137111517367459,
+      "recall@0.5": 0.7533512064343163,
+      "brier_uncalibrated": 0.16365939678693184
+    },
+    {
+      "model": "hist_gradient_boosting",
+      "cv_pr_auc": 0.6256365429058449,
+      "roc_auc": 0.8234431769954559,
+      "pr_auc": 0.6077322638174532,
+      "precision@0.5": 0.5032786885245901,
+      "recall@0.5": 0.8230563002680965,
+      "brier_uncalibrated": 0.1765216580586879
+    }
+  ],
+  "best_calibrated": {
+    "roc_auc": 0.8371003136418687,
+    "pr_auc": 0.6210858119360271,
+    "brier": 0.14036207809413745,
+    "threshold_tuned_on_train": 0.4000000000000001
+  },
+  "train_size": 5634,
+  "test_size": 1409,
+  "churn_rate_test": 0.26472675656493966
+}

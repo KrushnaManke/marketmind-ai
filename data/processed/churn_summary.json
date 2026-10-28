@@ -1,0 +1,29 @@
+{
+  "data_source": "synthetic",
+  "n_customers": 7043,
+  "n_active": 5181,
+  "churn_rate": 0.26437597614652847,
+  "annual_revenue_active": 3729124.92,
+  "revenue_at_risk_active": 787246.4321863947,
+  "clv_at_risk_active": 2035724.2043348085,
+  "revenue_already_lost_annualised": 1611869.1600000001,
+  "mrr_active": 310760.41000000003,
+  "avg_clv": 2237.5633821588963,
+  "n_high_risk_active": 279,
+  "n_targeted_active": 797,
+  "expected_saved_profit_targeted_active": 30462.34930035159,
+  "net_benefit_all_customers": {
+    "everyone": -132443.55120000005,
+    "expected_value_rule": 87268.97279999999,
+    "top_20pct": 76799.23439999999
+  },
+  "calibration_check": {
+    "sum_predicted": 1864.0551378067012,
+    "sum_actual": 1862
+  },
+  "assumptions": {
+    "gross_margin": 0.6,
+    "offer_cost": 60.0,
+    "save_rate": 0.3
+  }
+}

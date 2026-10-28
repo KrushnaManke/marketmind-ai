@@ -1,0 +1,6 @@
+policy,customers_contacted,churners_reached,recall,net_benefit_usd
+contact nobody,0,0,0.0,0.0
+contact everyone,1409,373,1.0,-25803.249600000003
+top 20% by risk,282,177,0.4745308310991957,14471.171999999997
+p >= 0.40 (tuned on train),420,238,0.6380697050938338,15877.346399999997
+expected-value rule,422,245,0.6568364611260054,18476.591999999997

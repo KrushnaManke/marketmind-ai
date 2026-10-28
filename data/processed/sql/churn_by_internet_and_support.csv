@@ -1,0 +1,5 @@
+InternetService,TechSupport,customers,churn_pct
+Fiber optic,No,2197,41.7
+Fiber optic,Yes,947,29.6
+DSL,No,1694,22.4
+DSL,Yes,690,14.9

@@ -1,0 +1,16 @@
+{
+  "data_source": "real",
+  "n_customers": 4334,
+  "k": 4,
+  "silhouette_at_k": 0.3363854337551557,
+  "best_silhouette_k": 2,
+  "dbscan": {
+    "eps": 0.4385058956747835,
+    "min_samples": 10,
+    "outliers": 152,
+    "whales_p99": 44,
+    "whale_revenue_share_pct": 32.13919140770377
+  },
+  "lapsed_definition_days": 90,
+  "lapsed_rate": 0.33433317951084446
+}
